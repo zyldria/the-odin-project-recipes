@@ -1,1 +1,2 @@
-# the-odin-project-recipes
+# Simple HTML recipes site
+Basic recipes website
