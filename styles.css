@@ -1,0 +1,32 @@
+* {
+    color: #fafafa;
+    background-color: #141313;
+    font-family: "Verdana";
+}
+
+a {
+    color: gold;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+.center-margin {
+    display: block;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
