@@ -1,31 +1,128 @@
 * {
-    color: #fafafa;
-    background-color: #141313;
-    font-family: "Verdana";
+  font-family: "Verdana";
+  margin: 0;
 }
 
 a {
-    color: gold;
+  color: #96715b;
+}
+
+a:hover {
+  color: #e3b261;
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: bold;
-    font-family: "Times New Roman";
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-img {
+  border-radius: 3%;
+  box-shadow: 0 0 15px 5px #0f0f0f;
 }
 
 .center-margin {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 35%;
+  width: 50%;
+  padding-bottom: 5px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .no-bullet {
-    list-style-type: none;
+  list-style-type: none;
+  padding-inline-start: 0;
 }
 
+li {
+  padding: 2px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.main-content {
+  color: #fafafa;
+  background-color: #141313;
+}
+
+.ingredients {
+  background-color: #1e1c1c;
+  border-color: #1e1c1c;
+  border: 10px;
+  border-radius: 1%;
+  box-shadow: 0 0 15px 5px #0f0f0f;
+  margin: 1% 0 1% 25%;
+  min-width: 35%;
+  max-width: 45%;
+  padding: 10px;
+  display: block;
+}
+
+.after-footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.footer {
+  background-color: #100f0f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -5px 10px -5px #0f0f0f;
+}
+.floating-btn {
+  position: fixed;
+}
+
+.floating-btn.back-btn {
+  display: block;
+  left: 2%;
+  top: 3%;
+  height: 22px;
+  width: 22px;
+  padding: 4px;
+  background-color: #e3b261;
+  border: 10px solid #e3b261;
+  border-radius: 100%;
+  box-shadow: 0 0 10px 15px #0f0f0f;
+  transition-duration: 0.2s;
+}
+
+.floating-btn.back-btn:hover {
+  box-shadow: 0 0 15px 15px #0a0a0a;
+  background-color: #96715b;
+  border: 10px solid #96715b;
+}
+
+.index-btn {
+  display: block;
+  width: 35%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0f0f0f;
+  border: 1px dotted black;
+  box-shadow: 0 5px 10px -5px #0f0f0f;
+  padding: 10px;
+  transition-duration: 0.3s;
+}
+
+.index-btn:hover {
+  color: #0f0f0f;
+  background-color: #e3b261;
+  border: 3px dotted #dca140;
+  border-radius: 1%;
+}
